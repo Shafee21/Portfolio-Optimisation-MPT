@@ -74,7 +74,7 @@ Applied a GARCH(1,1) model to capture volatility clustering in asset returns —
 
 ## 📁 File
 
-- [access the Full Jupyter notebook here]([./ShafeeFMFinal(1)(1)(1).ipynb](https://github.com/Shafee21/Portfolio-Optimisation-MPT/blob/main/ShafeeFMFinal%20(1)%20(1)%20(1).ipynb))  full notebook with data prep, modelling, results, and charts
+- [Access the full Jupyter notebook here](https://github.com/Shafee21/Portfolio-Optimisation-MPT/blob/main/ShafeeFMFinal%20(1)%20(1)%20(1)%20(1).ipynb) — full notebook with data prep, modelling, results, and charts
 
 ---
 

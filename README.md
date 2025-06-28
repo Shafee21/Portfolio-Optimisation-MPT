@@ -9,6 +9,8 @@ This project explores portfolio construction and risk analysis using real financ
 ### 📚 1. Portfolio Optimisation Theory
 
 Using historical returns and covariances, the notebook solves for the portfolio that maximises the Sharpe ratio under full investment and no short-selling constraints.
+![image](https://github.com/user-attachments/assets/aa425a65-4628-4aaf-a518-21c83e10eea2)
+
 
 **What I Got**:
 - ✅ **Optimal Portfolio Weights**:
@@ -29,6 +31,8 @@ Using historical returns and covariances, the notebook solves for the portfolio 
 Price data was loaded from a CSV (originally sourced via Bloomberg) and cleaned using `pandas`. Columns were renamed, missing values were handled, and dates formatted. Assets included:  
 `GOOGL`, `AMZN`, `TSLA`, `GS`, `BNDX`, `DAX_USD`.
 
+![image](https://github.com/user-attachments/assets/26e56852-3321-45e7-bad6-cd8a303ddd50)
+
 ---
 
 ### ⚙️ 3. Optimisation Code
@@ -42,6 +46,9 @@ The optimisation used `scipy.optimize.minimize` to determine asset weights by:
 
 ### 📉 4. Value at Risk (VaR)
 
+![image](https://github.com/user-attachments/assets/22b62b88-ef6f-4ba3-81b8-b90bd9538e06)
+
+
 Both **parametric** and **historical** methods were used to estimate the risk of large losses in the optimised portfolio.
 
 **What I Got**:
@@ -54,6 +61,9 @@ Both **parametric** and **historical** methods were used to estimate the risk of
 
 ### 📈 5. Geometric Brownian Motion (GBM)
 
+![image](https://github.com/user-attachments/assets/3924bbe4-004e-4bd9-94fe-38cb6e720050)
+
+
 Simulated multiple future price paths using GBM to understand how the portfolio might behave over time under stochastic returns. Drift and volatility were estimated from historical log returns.
 
 ---
@@ -61,6 +71,10 @@ Simulated multiple future price paths using GBM to understand how the portfolio 
 ### 🌀 6. GARCH Modelling
 
 Applied a GARCH(1,1) model to capture volatility clustering in asset returns — reflecting more realistic and time-varying risk behaviour compared to constant volatility assumptions.
+
+![image](https://github.com/user-attachments/assets/556ede62-56fe-46da-a7e1-d121655e5e60)
+![image](https://github.com/user-attachments/assets/548aa1d8-c554-4e54-b987-b640d3848cd5)
+![image](https://github.com/user-attachments/assets/fdaf0a78-ae2f-42bb-824b-741e41ddc9bb)
 
 ---
 
